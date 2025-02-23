@@ -14,7 +14,7 @@ Este repositório contém o firmware desenvolvido para o protótipo mínimo do s
 
 ## Vídeo
 
-[Link para o drive](
+[Link para o drive](https://drive.google.com/file/d/18e4z5cQMUwJ62UOw6baL6OcMlThxKqVY/view?usp=sharing)
 
 ## Visão Geral
 O sistema proposto visa automatizar a abertura e fechamento da cobertura de barcaças de secagem com base em dados de temperatura, chuva e umidade. O protótipo utiliza componentes da BitdogLab para simular sensores, atuadores e interfaces, validando a lógica de controle antes da implementação prática.
