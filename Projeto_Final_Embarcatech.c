@@ -129,9 +129,9 @@ int matriz_numeros[8][5][5][3] = {
  * atenuando o brilho multiplicando cada valor por 0.025.
  */
 static uint32_t matrix_rgb(double r, double g, double b) {
-    unsigned char R = (unsigned char)(r * 0.025);
-    unsigned char G = (unsigned char)(g * 0.025);
-    unsigned char B = (unsigned char)(b * 0.025);
+    unsigned char R = (unsigned char)(r * 0.1);
+    unsigned char G = (unsigned char)(g * 0.1);
+    unsigned char B = (unsigned char)(b * 0.1);
     return ((uint32_t)G << 24) | ((uint32_t)R << 16) | ((uint32_t)B << 8);
 }
 
